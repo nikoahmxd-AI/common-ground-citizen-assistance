@@ -11,6 +11,12 @@ npm run dev
 
 To create a production build, run `npm run build`. Preview it with `npm run preview`.
 
+## Project files
+
+- `src/App.tsx` contains the React interface and demo interactions.
+- `src/main.tsx` mounts the React app, and `src/styles.css` contains its styles.
+- `preview.html` is a separate, dependency-free preview for opening the prototype directly as a local file. It mirrors the core demo flows and is maintained separately from the React app.
+
 ## Publish with GitHub Pages
 
 The workflow in `.github/workflows/pages.yml` builds and deploys the site on each push to `main`. In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions**. The first successful workflow run publishes the site URL in its deployment summary.
